@@ -1,0 +1,2 @@
+model.comile(optimizer='adam',
+
