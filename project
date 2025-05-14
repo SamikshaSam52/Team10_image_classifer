@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 target_name=list(test_data.class_indices.keys())))
 print("\nClassification Matrix:"
 print(confusion_matrix(y_true,y_pred))
+=======
+y_pred = np.argmax(predictions, axis=1)
+y_true = test_data.classes
+
+
+print("\nClassification Report:")
+print(classification_report(y_true,yy_pred,
+>>>>>>> test
 
