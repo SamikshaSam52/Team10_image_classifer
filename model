@@ -1,3 +1,5 @@
 def evaluate_model
     model = load_model(MODEL_PATH)
+    datagen =
+  ImageDataGeneration(rescale=1./255)
 
