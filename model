@@ -4,4 +4,4 @@ ImageDataGeneration(rescale=1./255)
         TEST_DIR, target_size=IMG_SIZE,
    datagen.flow_from_directory(
          Test_Dir, target_size=IMG_SIZE,
-         printf
+         printf(
