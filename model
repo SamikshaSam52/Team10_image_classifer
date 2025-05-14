@@ -9,4 +9,5 @@ def evaluate_model
   )
 
   prediction =
+model.predict(test_data)
 
