@@ -1,0 +1,3 @@
+def evaluate_model
+    model = load_model(MODEL_PATH)
+
