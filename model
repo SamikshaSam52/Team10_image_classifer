@@ -1,0 +1,5 @@
+ImageDataGeneration(rescale=1./255)
+   test_data = 
+ datagen.flow-from_directory(
+        TEST_DIR, target_size=IMG_SIZE,
+
