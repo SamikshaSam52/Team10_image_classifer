@@ -1,2 +1,6 @@
 y_pred = np.argmax(predictions, axis=1)
 y_true = test_data.classes
+
+
+print("\nClassification Report:")
+
