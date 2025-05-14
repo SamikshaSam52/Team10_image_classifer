@@ -4,4 +4,5 @@ def evaluate_model
   ImageDataGeneration(rescale=1./255)
      test_data =
    datagen.flow_from_directory(
+      TEST_DIR, target_size=IMG_SIZE,
 
