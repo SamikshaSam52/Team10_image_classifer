@@ -2,4 +2,6 @@ def evaluate_model
     model = load_model(MODEL_PATH)
     datagen =
   ImageDataGeneration(rescale=1./255)
+     test_data =
+   datagen.flow_from_directory(
 
