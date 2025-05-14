@@ -10,4 +10,5 @@ def evaluate_model
 
   prediction =
 model.predict(test_data)
+  y_pred = np.argmax(predictions,axis=1)
 
