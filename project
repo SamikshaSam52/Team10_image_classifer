@@ -9,6 +9,9 @@ y_true = test_data.classes
 
 
 print("\nClassification Report:")
+
 print(classification_report(y_true,yy_pred,
+
 >>>>>>> test
+
 
