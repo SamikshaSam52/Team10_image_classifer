@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEAD{}
 target_name=list(test_data.class_indices.keys())))
 print("\nClassification Matrix:"
 print(confusion_matrix(y_true,y_pred))
