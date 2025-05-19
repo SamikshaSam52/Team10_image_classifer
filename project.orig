@@ -4,7 +4,6 @@ print("\nClassification Matrix:"
 print(confusion_matrix(y_true,y_pred))
 =======
 y_pred = np.argmax(predictions, axis=1)
-
 y_true = test_data.classes
 
 
