@@ -1,8 +1,15 @@
+ HEAD
 5. EVALUATE ON TEST SET 
 def evaluate_model():
 
    model = load_mpodel(MODEL_PATH)
    datagen =
 ImageDataGenerator(rescale=1./255i
-     test_data =
+     test_data 
+datagen.flow_from_directory
+(
+       TEST_DIR, target_size=IMG_SIZE,
+class_mode='categorical',shuffle=False)
+prediction =
+model.predict(trst_da) second
 
