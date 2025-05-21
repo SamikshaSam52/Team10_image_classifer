@@ -1,5 +1,6 @@
 5. EVALUATE ON TEST SET 
 def evaluate_model():
+
    model = load_mpodel(MODEL_PATH)
    datagen =
 ImageDataGenerator(rescale=1./255i
